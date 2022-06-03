@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheeet" type="text/css" href="style.css">
+</head>
+<body>
+<nav class="navbar">
+<ul class="link-group">
+<li class="link-active"><a href="#home">Home</a></li>
+<li class="link"><a href="#pro">Projects</a></li>
+<li class="link"><a href="#about">About</a></li>
+<li class="link"><a href="#skill">Skills</a></li>
+<li class="link"><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<!--home section-->
+<section class="home-section active" id="home">
+<h1 class="hero-heading">Hi, I am Grace
+<br> A front-end developer</h1>
+<img src="home.jpeg" class="home-img" alt="My picture">
+</section>
+
+
+<!-- project section-->
+<section class="project-section">
+<h1 class="project-heading" id="pro">Some of my projects</h1>
+<div class="project-container">
+<div class="project-card">
+<img src="pepsiproject.png " class="project-img"  alt="landingpagephoto">
+<div class="project-content">
+<h1 class="project-title">Project 01</h1>
+<p class="project-info">
+This is a demo Pepsi business landing page. </p>
+<div class="project-btn-grp">
+<button class="project-btn github" onclick="window.location.href=
+'https://github.com/Longlivelecie/originalpepsiproject';">Github repo</button>
+<button class="project.btn live" onclick="window.location.href='
+http://pepsifrontend.netlify.app';">see live</button>
+</div>
+</div>
+</div>
+<div class="project-card">
+<img src="googlepage.png" class="project-img" alt="googlehome photo">
+<h1 class="project-title">project 02</h1>
+<p class="project-info">This is a Google homepage clone made with HTML and CSS</p>
+<div class="project-btn-grp">
+<button class="project.btn github" onclick="window.location.href='
+ https://github.com/Longlivelecie/Google-clone';">Github repo</button>
+<button class="project.btn live" onclick="window.location.href='
+https://longlivelecie.github.io/Google-clone/';">see live</button>
+</div>
+</div>
+</div>
+</section>
+
+
+<!-- about section-->
+<section class="about-section">
+<div class="about" id="about">
+<div class="about-img-container">
+<img src="home.jpeg" class="about-img"  alt="My picture">
+<a href="    " download><button class="download-cv-btn">download cv</button></a>
+</div>
+<p class="about-info">My name is grace.</p>
+</div>
+</section>
+
+<!--skills section-->
+<!--for html image-->
+<div class="skills-section" id="skill">
+<h1 class="heading">skills</h1>
+<div class="skills-container">
+<div class="skill-card">
+<img src="html.png" class="skill-img" alt="html logo">
+<div class="skill-name">html</div>
+</div>
+</div>
+</div>
+
+<!--for css image-->
+<div class="skills-section">
+<div class="skills-container">
+<div class="skill-card">
+<img src="css.png" class="skill-img" alt="css logo">
+<div class="skill-name">css</div>
+</div>
+</div>
+</div>
+
+<!-- forjs image-->
+<div class="skills-section">
+<div class="skills-container">
+<div class="skill-card">
+<img src="js.png" class="skill-img" alt="js logo">
+<div class="skill-name">js</div>
+</div>
+</div>
+</div>
+
+<!--contact section-->
+<section class="contact-section" id="contact">
+<form class="contact-form" action="mailto:oyingrace307@gmail.com" method="post" enctype="text/plain">
+<input type="text" name="name" id="name"
+autocomplete="off" placeholder="full name">
+<input type="text" name="email" id="email"
+autocomplete="off" placeholder="email">
+<textarea name="msg" id="msg" placeholder="message"
+autocomplete="off"></textarea>
+<button type="submit" id="btnShowmsg" value="Contact Me" onClick="showMessage()" class="form-submit-btn">Contact Me</button>
+</form>
+</section>
+
+<h2 class="secondheading">Or</h2>
+
+<!--whatsapp button-->
+<div>
+<a href="https:wa.me/2348112186527/?text=Hello,
+I have a business preposition" style="display:inline-block;
+font-family:sans-serif;margin:1em auto;color:#fff;
+font-size:0.5em;padding:2em 1.5em 2em 1.5em;border-radius:2em;
+font-weight:bold;background:#25d366 no-repeat 1em center;
+background-size:0.5em;">contact on whatsapp</a>
+</div>
+<script src="app.js></script>
+</body>
+</html>
